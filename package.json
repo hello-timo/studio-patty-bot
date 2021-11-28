@@ -1,11 +1,11 @@
 {
-  "name": "github-version-and-merge-bot",
+  "name": "studio-patty-bot",
   "version": "1.0.0",
   "private": true,
   "description": "Versions and merges PRs after PR comments",
   "author": "Richard Palmer <rich@rdjpalmer.com>",
   "license": "ISC",
-  "homepage": "https://github.com/rdjpalmer/github-version-and-merge-bot",
+  "homepage": "https://github.com/hello-timo/studio-patty-bot",
   "keywords": [
     "probot",
     "github",
