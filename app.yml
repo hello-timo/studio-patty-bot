@@ -14,7 +14,7 @@
 # Uncomment the event names below to enable them.
 default_events:
   # - check_run
-  # - check_suite
+  - check_suite
   # - commit_comment
   # - create
   # - delete
@@ -22,7 +22,7 @@ default_events:
   # - deployment_status
   # - fork
   # - gollum
-  # - issue_comment
+  - issue_comment
   - issues
 # - label
 # - milestone
@@ -35,10 +35,10 @@ default_events:
 # - project_card
 # - project_column
 # - public
-# - pull_request
+- pull_request
 # - pull_request_review
 # - pull_request_review_comment
-# - push
+- push
 # - release
 # - repository
 # - repository_import
@@ -82,7 +82,7 @@ default_permissions:
 
   # Pull requests and related comments, assignees, labels, milestones, and merges.
   # https://developer.github.com/v3/apps/permissions/#permission-on-pull-requests
-  # pull_requests: read
+  pull_requests: read
 
   # Manage the post-receive hooks for a repository.
   # https://developer.github.com/v3/apps/permissions/#permission-on-repository-hooks
