@@ -1,8 +1,8 @@
 import { Probot } from "probot";
 import { inc as semverInc } from "semver";
 
-const botName = "version-and-merge-bot[bot]";
-const isAddressingBotMatcher = new RegExp("@stdiopttybot");
+const botName = "bgpatty[bot]";
+const isAddressingBotMatcher = new RegExp("@bgpatty");
 
 type Command = "merge" | "version";
 type Version = "major" | "minor" | "patch" | "prerelease";
